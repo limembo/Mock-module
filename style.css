@@ -1,0 +1,122 @@
+/* FontAwesome Styles */
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .fa-search {
+  position: absolute;
+  padding: 13px;
+  pointer-events: none;
+}
+
+.left-addon .fa-search  { left:  0px;}
+.right-addon .fa-search { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.fa {
+  color: #ccc;
+  border-left: 1px solid #ccc;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Background Styles */
+
+body {
+  background: linear-gradient(#060606d9, transparent),url(images/heroimage.jpeg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  font-family: Helvetica,Arial,sans-serif;
+  color: #384047;
+  margin-top: 5%;
+}
+
+/* Form Styles */
+form {
+  max-width: 355px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 8px;
+}
+
+form h2 {
+  font-size: 22px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  background: rgba(255,255,255,0.1);
+  border: 2px #ccc solid;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 15px;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 10px;
+  color: #FFF;
+  background-image: linear-gradient(to bottom,#07dd2f 0%,#05ab25 100%);
+  background-repeat: repeat-x;
+  border-color: #04931f;
+  border-bottom-color: #036115;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+label {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+h1#header {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+/* Responsive styling */
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 355px;
+  }
+
+}
