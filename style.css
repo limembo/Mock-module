@@ -32,6 +32,7 @@ body {
   background: linear-gradient(#060606d9, transparent),url(images/heroimage.jpeg);
   background-repeat: no-repeat;
   background-position: right bottom;
+  background-size: cover;
   font-family: Helvetica,Arial,sans-serif;
   color: #384047;
   margin-top: 50px;
@@ -114,6 +115,15 @@ h1#header {
 /* Responsive styling */
 
 @media screen and (min-width: 480px) {
+
+  form {
+    max-width: 355px;
+  }
+
+}
+
+
+@media screen and (min-width: 1920px) {
 
   form {
     max-width: 355px;
